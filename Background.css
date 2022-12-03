@@ -1,0 +1,145 @@
+#ulnav {
+    list-style-type: none;
+    margin: 2;
+    padding: 0;
+    display: flex;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  .button {
+    background-color: #000000;
+    padding: 5px 3px;
+    text-align: center;
+    display: inline-block;
+    margin: 2px 1px;
+    cursor: pointer;
+  }
+  
+  .button:hover{ 
+    box-shadow: 0 8px 10px 0 #2600cf,0 17px 50px 0 #2600cf;
+  }
+  
+  .fonts{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    position: absolute;
+    margin-top:90px;
+    color: aliceblue;
+  }
+
+  .topic {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: absolute;
+    margin-top:40px;
+  }
+
+  .images{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        box-sizing: border-box;
+  }
+  #body{
+    background-color: rgb(0, 0, 0);
+  }
+
+  #home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background: url("cover1.jpg");
+    background-size: cover;
+    height: 850px;
+    width: 1555px;
+    z-index: -2;
+    opacity: 3;
+    color: rgb(255, 255, 255);
+  }
+
+  #quote {
+    position: absolute;
+    top: 740px;
+    left: 34%;
+    padding: 15px 6px;
+    border: 2px solid rgb(209, 209, 209);
+    min-width: 450px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  #me {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 35px;
+    margin-top:830px;
+    color: rgb(255, 255, 255);
+    display: flex;
+  }
+
+  #hobby {
+    display:flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 35px;
+    margin-top:100px;
+    color: rgb(255, 255, 255);
+    display: flex;
+  }
+
+  img{
+    padding-top: 160px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 300px;
+    height: 400px;
+  }
+
+  #movie {
+    display:flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 35px;
+    margin-top:00px;
+    color: rgb(255, 255, 255);
+    display: flex;
+  }
+
+  #music {
+    display:flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 35px;
+    margin-top:00px;
+    color: rgb(255, 255, 255);
+    display: flex;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top:120px;
+  }
+  
+  td, th {
+    border: solid  #ffffff;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #6c6c6c;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #232323;
+  }
